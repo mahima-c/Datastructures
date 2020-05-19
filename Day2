@@ -1,0 +1,28 @@
+#include<bits/stdc++.h>
+
+using namespace std;
+
+int main() {
+    int i = 4;
+    double d = 4.0;
+    string s = "HackerRank ";
+    
+    int q;
+    double z;
+    cin>>q>>z;
+    string s2;
+    getline(cin >> ws, s2);
+    double a=z+d;
+    int w=i+q;
+    
+    
+    
+
+    string n = s + s2;
+    cout<<w<<endl;
+    cout << fixed << setprecision(1) << a <<endl; 
+    cout<<n<<endl;
+    
+   
+
+    return 0;
